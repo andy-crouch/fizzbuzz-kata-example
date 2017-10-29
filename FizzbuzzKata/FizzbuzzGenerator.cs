@@ -8,7 +8,7 @@ namespace FizzbuzzKata
     {
         List<INumberParser> _numberParsers;
 
-        public List<string> GenerateResults(int rangeStart, int rangeEnd)
+        public List<string> GenerateResultsBetween(int rangeStart, int rangeEnd)
         {
             var resultSet = new List<string>();
             var inputRange = Enumerable.Range(rangeStart, rangeEnd).ToList();

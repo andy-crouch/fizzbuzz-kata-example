@@ -11,7 +11,7 @@ namespace FizzbuzzKata
             var fizzbuzzGenerator = new FizzbuzzGenerator();
 
             fizzbuzzGenerator
-                .GenerateResults(1, 100)
+                .GenerateResultsBetween(1, 100)
                 .ForEach(r => Console.WriteLine(r));
 
             Console.ReadLine();
